@@ -112,7 +112,7 @@ Foto: [**S zillayali**](https://commons.wikimedia.org/wiki/File:Siamese_Cat_with
 
 ## Gatos de Internet 🌐
 
-![Ragdoll estirado](https://commons.wikimedia.org/wiki/Special:FilePath/Ragdoll_Cat_Stretching.jpg "Gato ragdoll estirándose")
+![Ragdoll estirado](https://commons.wikimedia.org/wiki/Special:FilePath/Ragdoll_Cat_Stretching.jpg?width=500 "Gato ragdoll estirándose")
 
 Foto: [**Leijurv**](https://commons.wikimedia.org/wiki/File:Ragdoll_Cat_Stretching.jpg "Ver la foto original en Wikimedia Commons"), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "Enlace a la licencia de Creative Commons 4.0"), via Wikimedia Commons
 
@@ -327,13 +327,28 @@ Este repositorio usa **Git Flow**: una rama por cada raza y una etiqueta por ver
 
 ## Comandos
 
+> Este es el ciclo que repetí con cada rama (ragdoll, siamese, internet-cats y care-guide)
+
 ```bash
-git checkout -b ragdoll
+# Creo una rama de trabajo desde develop
+git switch develop
+git switch -c ragdoll
+
+# Guardamos los cambios y subimos la rama
 git add README.md
-git commit -m "Añadir ragdoll"
-git checkout main
-git merge ragdoll
-git tag v1.0
+git commit -m "Add ragdoll section to README.md"
+git push -u origin ragdoll
+
+# Fusionamos la rama en develop (sin fast-forward)
+git switch develop
+git merge --no-ff ragdoll -m "Merge ragdoll into develop branch"
+git push origin develop
+
+# Publicamos la versión en main con un tag
+git switch main
+git merge --no-ff develop -m "Release v1.1"
+git tag -a v1.1 -m "Version 1.1"
+git push origin main --tags
 ```
 
 ## Diagrama de ramas
@@ -375,6 +390,6 @@ gitGraph
    merge develop id: "Release v2.0" type: HIGHLIGHT tag: "v2.0"
 ```
 
-Proyecto hecho por **Azael Reyes Martel**. Puedes ver el código en el repo de github [GitHub]( "Ir a GitHub").
+Proyecto hecho por **Azael Reyes Martel**. Puedes ver el código en el [repositorio de GitHub](https://github.com/AzaelReyesMartel-1ASIR/azael-kitties-guide "Ir al repositorio del proyecto")
 
 [⬆️ Volver al índice](#indice)
