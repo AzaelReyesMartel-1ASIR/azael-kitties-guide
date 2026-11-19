@@ -112,7 +112,7 @@ Foto: [**S zillayali**](https://commons.wikimedia.org/wiki/File:Siamese_Cat_with
 
 ## Gatos de Internet 🌐
 
-![Ragdoll estirado](https://commons.wikimedia.org/wiki/Special:FilePath/Ragdoll_Cat_Stretching.jpg "Gato ragdoll estirándose")
+![Ragdoll estirado](https://commons.wikimedia.org/wiki/Special:FilePath/Ragdoll_Cat_Stretching.jpg?width=500 "Gato ragdoll estirándose")
 
 Foto: [**Leijurv**](https://commons.wikimedia.org/wiki/File:Ragdoll_Cat_Stretching.jpg "Ver la foto original en Wikimedia Commons"), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "Enlace a la licencia de Creative Commons 4.0"), via Wikimedia Commons
 
@@ -375,6 +375,6 @@ gitGraph
    merge develop id: "Release v2.0" type: HIGHLIGHT tag: "v2.0"
 ```
 
-Proyecto hecho por **Azael Reyes Martel**. Puedes ver el código en el repo de github [GitHub]( "Ir a GitHub").
+Proyecto hecho por **Azael Reyes Martel**. Puedes ver el código en el [repositorio de GitHub](https://github.com/AzaelReyesMartel-1ASIR/azael-kitties-guide "Ir al repositorio del proyecto")
 
 [⬆️ Volver al índice](#indice)
