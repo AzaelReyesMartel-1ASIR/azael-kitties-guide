@@ -137,11 +137,7 @@ Foto: [**Andy Burgess**](https://commons.wikimedia.org/wiki/File:Ragdoll_%284200
 > [!TIP]
 > Pon el arenero lejos de la comida.
 
-
-> [!NOTE]
-> Guía de cuidados próximamente...
-
-<!-- Hay más información en la [guía de cuidados](docs/care.md "Abrir la guía de cuidados"). -->
+Hay más información en la [guía de cuidados](docs/care.md "Abrir la guía de cuidados").
 
 ## Vacunas 💉
 
