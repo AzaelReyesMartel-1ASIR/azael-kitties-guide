@@ -112,8 +112,13 @@ Foto: [**S zillayali**](https://commons.wikimedia.org/wiki/File:Siamese_Cat_with
 
 ## Gatos de Internet 🌐
 
-> [!NOTE]
-> Próximamente...
+![Ragdoll estirado](https://commons.wikimedia.org/wiki/Special:FilePath/Ragdoll_Cat_Stretching.jpg "Gato ragdoll estirándose")
+
+Foto: [**Leijurv**](https://commons.wikimedia.org/wiki/File:Ragdoll_Cat_Stretching.jpg "Ver la foto original en Wikimedia Commons"), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "Enlace a la licencia de Creative Commons 4.0"), via Wikimedia Commons
+
+![RagdollFace](https://commons.wikimedia.org/wiki/Special:FilePath/Ragdoll_%284200198725%29.jpg "Cara de un ragdoll")
+
+Foto: [**Andy Burgess**](https://commons.wikimedia.org/wiki/File:Ragdoll_%284200198725%29.jpg "Ver la foto original en Wikimedia Commons"), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/ "Enlace a la licencia de Creative Commons 2.0"), via Wikimedia Commons
 
 [⬆️ Volver al índice](#indice)
 
@@ -132,11 +137,7 @@ Foto: [**S zillayali**](https://commons.wikimedia.org/wiki/File:Siamese_Cat_with
 > [!TIP]
 > Pon el arenero lejos de la comida.
 
-
-> [!NOTE]
-> Guía de cuidados próximamente...
-
-<!-- Hay más información en la [guía de cuidados](docs/care.md "Abrir la guía de cuidados"). -->
+Hay más información en la [guía de cuidados](docs/care.md "Abrir la guía de cuidados").
 
 ## Vacunas 💉
 
@@ -337,16 +338,41 @@ git tag v1.0
 
 ## Diagrama de ramas
 
-<!-- Cambiar este ejemplo por el historial real cuando haga las ramas -->
-
 ```mermaid
 gitGraph
-   commit id: "Commit inicial"
-   branch ragdoll
-   checkout ragdoll
-   commit id: "Añadir ragdoll"
+   commit id: "Initial commit"
+   commit id: "Create images folder"
+   commit id: "First Kitten image"
+   branch develop
+   commit id: "Add README base and second image"
    checkout main
-   merge ragdoll tag: "v1.0"
+   merge develop id: "Release v1.0" tag: "v1.0"
+   checkout develop
+   branch ragdoll
+   commit id: "Add ragdoll photos"
+   commit id: "Add ragdoll section to README.md"
+   checkout develop
+   merge ragdoll id: "Merge ragdoll into develop branch"
+   branch siamese
+   commit id: "Add siamese photo"
+   commit id: "Add siamese section to README.md"
+   checkout develop
+   merge siamese id: "Merge siamese into develop branch"
+   checkout main
+   merge develop id: "Release v1.1" tag: "v1.1"
+   checkout develop
+   branch internet-cats
+   commit id: "Add internet cats section"
+   checkout develop
+   merge internet-cats id: "Merge internet-cats into develop"
+   branch care-guide
+   commit id: "Add care guide"
+   commit id: "Add link to care guide"
+   checkout develop
+   merge care-guide id: "Merge care-guide into develop branch"
+   commit id: "Update Git Flow diagram"
+   checkout main
+   merge develop id: "Release v2.0" type: HIGHLIGHT tag: "v2.0"
 ```
 
 Proyecto hecho por **Azael Reyes Martel**. Puedes ver el código en el repo de github [GitHub]( "Ir a GitHub").
