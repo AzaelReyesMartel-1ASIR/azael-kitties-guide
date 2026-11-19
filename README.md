@@ -327,13 +327,28 @@ Este repositorio usa **Git Flow**: una rama por cada raza y una etiqueta por ver
 
 ## Comandos
 
+> Este es el ciclo que repetí con cada rama (ragdoll, siamese, internet-cats y care-guide)
+
 ```bash
-git checkout -b ragdoll
+# Creo una rama de trabajo desde develop
+git switch develop
+git switch -c ragdoll
+
+# Guardamos los cambios y subimos la rama
 git add README.md
-git commit -m "Añadir ragdoll"
-git checkout main
-git merge ragdoll
-git tag v1.0
+git commit -m "Add ragdoll section to README.md"
+git push -u origin ragdoll
+
+# Fusionamos la rama en develop (sin fast-forward)
+git switch develop
+git merge --no-ff ragdoll -m "Merge ragdoll into develop branch"
+git push origin develop
+
+# Publicamos la versión en main con un tag
+git switch main
+git merge --no-ff develop -m "Release v1.1"
+git tag -a v1.1 -m "Version 1.1"
+git push origin main --tags
 ```
 
 ## Diagrama de ramas
