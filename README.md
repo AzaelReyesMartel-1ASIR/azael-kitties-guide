@@ -112,8 +112,13 @@ Foto: [**S zillayali**](https://commons.wikimedia.org/wiki/File:Siamese_Cat_with
 
 ## Gatos de Internet 🌐
 
-> [!NOTE]
-> Próximamente...
+![Ragdoll estirado](https://commons.wikimedia.org/wiki/Special:FilePath/Ragdoll_Cat_Stretching.jpg "Gato ragdoll estirándose")
+
+Foto: [**Leijurv**](https://commons.wikimedia.org/wiki/File:Ragdoll_Cat_Stretching.jpg "Ver la foto original en Wikimedia Commons"), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "Enlace a la licencia de Creative Commons 4.0"), via Wikimedia Commons
+
+![RagdollFace](https://commons.wikimedia.org/wiki/Special:FilePath/Ragdoll_%284200198725%29.jpg "Cara de un ragdoll")
+
+Foto: [**Andy Burgess**](https://commons.wikimedia.org/wiki/File:Ragdoll_%284200198725%29.jpg "Ver la foto original en Wikimedia Commons"), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/ "Enlace a la licencia de Creative Commons 2.0"), via Wikimedia Commons
 
 [⬆️ Volver al índice](#indice)
 
