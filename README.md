@@ -99,8 +99,14 @@ Foto: [**CalistaZ**](https://commons.wikimedia.org/wiki/File:Female_ragdoll.jpg 
 
 ## Siamés
 
-> [!NOTE]
-> Próximamente...
+1. Habla mucho
+2. Tiene los ojos azules
+   1. Orejas oscuras
+   2. Cola oscura
+
+<img src="img/330px-Siamese_Cat_with_her_Kitties.jpg" alt="Gato siamés" width="300">
+
+Foto: [**S zillayali**](https://commons.wikimedia.org/wiki/File:Siamese_Cat_with_her_Kitties.jpg "Ver la foto original en Wikimedia Commons"), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/ "Enlace a la licencia de Creative Commons 3.0"), via Wikimedia Commons
 
 <!-- Aquí se podrían añadir más razas en el futuro si quisiera ampliar -->
 
