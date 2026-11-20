@@ -385,6 +385,11 @@ gitGraph
    commit id: "Add link to care guide"
    checkout develop
    merge care-guide id: "Merge care-guide into develop branch"
+   branch fix-readme
+   commit id: "Fix repository link and ragdoll image"
+   commit id: "Update commands section"
+   checkout develop
+   merge fix-readme id: "Merge fix-readme into develop"
    commit id: "Update Git Flow diagram"
    checkout main
    merge develop id: "Release v2.0" type: HIGHLIGHT tag: "v2.0"
