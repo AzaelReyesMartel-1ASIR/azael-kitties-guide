@@ -385,14 +385,19 @@ gitGraph
    commit id: "Add link to care guide"
    checkout develop
    merge care-guide id: "Merge care-guide into develop branch"
+   commit id: "Update Git Flow diagram"
+   checkout main
+   merge develop id: "Release v2.0" tag: "v2.0"
+   checkout develop
    branch fix-readme
    commit id: "Fix repository link and ragdoll image"
    commit id: "Update commands section"
    checkout develop
    merge fix-readme id: "Merge fix-readme into develop"
-   commit id: "Update Git Flow diagram"
+   commit id: "Update Git Flow diagram x2"
+   commit id: "Update Git Flow diagram final"
    checkout main
-   merge develop id: "Release v2.0" type: HIGHLIGHT tag: "v2.0"
+   merge develop id: "Release v2.1" type: HIGHLIGHT tag: "v2.1"
 ```
 
 Proyecto hecho por **Azael Reyes Martel**. Puedes ver el código en el [repositorio de GitHub](https://github.com/AzaelReyesMartel-1ASIR/azael-kitties-guide "Ir al repositorio del proyecto")
